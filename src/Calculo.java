@@ -34,6 +34,7 @@ public class Calculo {
                 JOptionPane.showMessageDialog(null,"El resultado de la división es:" + res);
            break;
            default:
+               JOptionPane.showMessageDialog(null,"Opcion no válida");
                res = Float.parseFloat(null);
 
        }
