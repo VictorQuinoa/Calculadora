@@ -14,7 +14,7 @@ public class Main {
             } else {
                 JOptionPane.showMessageDialog(null, "Operación finalizada");
             }
-            a= Integer.parseInt(JOptionPane.showInputDialog("Quieres hacer otro calculo?\n 0-Si \n 1-no"));
+            a= Integer.parseInt(JOptionPane.showInputDialog("Quieres hacer otro calculo?\n 0-Si \n 1-No"));
         }while(a==0);
     }
 }
