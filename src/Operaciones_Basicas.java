@@ -3,7 +3,9 @@ import com.inout.Entrada;
 import javax.swing.*;
 
 public class Operaciones_Basicas {
-
+    /**
+     * Uso para el factory
+     */
     private float num;
     private float num2;
     public static final int SUMA=1;

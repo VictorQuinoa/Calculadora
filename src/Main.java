@@ -1,6 +1,9 @@
 import javax.swing.*;
 
 public class Main {
+    /**
+     * Declarado para poder llamar al factory
+     */
     static Float Salida;
     public static void main(String[] args){
 // Salida.salidaDos("",Salida.VENTANA);
