@@ -14,6 +14,7 @@ public class Main {
          */
         int a =0;
         do {
+            JOptionPane.showMessageDialog(null,"El programa te pedira numeros para suma,resta,multiplicacion ,division y raiz en orden");
 
 /**
  * Impresion de la suma con opcion de fallo

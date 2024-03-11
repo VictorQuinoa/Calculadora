@@ -11,3 +11,5 @@ Examen librerias:
 5-Añado la opcion de introducir diferentes numeros para cada operacion con JOptionPane.
 
 6-Creo el jar dejando la main vacia para que pueda usarse como biblioteca
+
+7-Hago el programa repetitivo con do while
