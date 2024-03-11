@@ -17,10 +17,13 @@ public class Operaciones_Basicas {
      * @param num
      * @param num2
      */
-    public Operaciones_Basicas(float num, float num2) {
-        this.num = num;
+
+   public Operaciones_Basicas(float num, float num2) {
+
+       this.num = num;
         this.num2= num2;
     }
+
 
     /**
      * Metodo que contiene las operaciones
@@ -31,7 +34,6 @@ public class Operaciones_Basicas {
      */
     public static Float operaciones(int a,float num,float num2){
 
-        Entrada.elegirNúmeros();
 
         float resultado=0;
         switch (a){
@@ -58,6 +60,7 @@ public class Operaciones_Basicas {
              */
             case DIVISION:
                 resultado=num/num2;
+
                 break;
             /**
              * Calculo de Raiz seleccionando cuadrada o cúbica
@@ -81,4 +84,4 @@ public class Operaciones_Basicas {
 
 
 
-}
+
