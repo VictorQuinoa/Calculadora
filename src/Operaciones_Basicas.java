@@ -34,6 +34,8 @@ public class Operaciones_Basicas {
      */
     public static Float operaciones(int a,float num,float num2){
 
+   num= Float.parseFloat(JOptionPane.showInputDialog("Introduce el primer numero"));
+        num2= Float.parseFloat(JOptionPane.showInputDialog("Introduce el segundo numero"));
 
         float resultado=0;
         switch (a){
