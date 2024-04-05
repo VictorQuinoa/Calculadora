@@ -14,15 +14,15 @@ public class TestCalculadora {
     }
     @Test
     public void testComprueboDivisionPositivos(){
-        Assertions.assertEquals(3,Operaciones_Basicas.DIVISION);
+        Assertions.assertEquals(4,Operaciones_Basicas.DIVISION);
     }
-@Test
+    @Test
     public void testComprueboMultiplicacionPositivos(){
         Assertions.assertEquals(3,Operaciones_Basicas.MULTIPLICACION);
     }
-@Test
+    @Test
     public void testComprueboRaizPositivos(){
-        Assertions.assertEquals(3,Operaciones_Basicas.DIVISION);
+        Assertions.assertEquals(4,Operaciones_Basicas.DIVISION);
     }
 
 
